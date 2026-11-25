@@ -6,8 +6,18 @@ plugins {
 
 android {
     namespace = "app.tithimala.core.database"
+
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+    }
 }
 
 dependencies {
     implementation(projects.core.model)
+    implementation(libs.kotlinx.coroutines.core)
+
+    testImplementation(libs.androidx.room.testing)
+    testImplementation(libs.androidx.test.ext.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.robolectric)
 }
