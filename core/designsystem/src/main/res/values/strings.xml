@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="designsystem_brand_mark_cd">Tithimala moon phase garland emblem</string>
+  <string name="designsystem_brand_title">Tithimala</string>
+  <string name="designsystem_theme_subtitle">Himalayan Dawn design tokens</string>
+  <string name="designsystem_sample_bs_date">10 Mangsir 2083</string>
+  <string name="designsystem_sample_ad_date">Wednesday, 25 November 2026</string>
+  <string name="designsystem_sample_tithi">Purnima</string>
+  <string name="designsystem_sample_holiday">Public holiday</string>
+  <string name="designsystem_palette_heading">Palette</string>
+  <string name="designsystem_swatch_primary">Sindoor</string>
+  <string name="designsystem_swatch_secondary">Ridge slate</string>
+  <string name="designsystem_swatch_tertiary">Brass</string>
+  <string name="designsystem_swatch_surface">Parchment</string>
+  <string name="designsystem_action_today">Today</string>
+  <string name="designsystem_action_convert">Convert date</string>
+</resources>

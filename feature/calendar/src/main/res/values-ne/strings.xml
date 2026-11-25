@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="feature_calendar_title">तिथिमाला</string>
+  <string name="feature_calendar_subtitle">अफलाइन विक्रम संवत् पात्रो</string>
+  <string name="feature_calendar_brand_cd">तिथिमाला चन्द्रकला प्रतीक</string>
 </resources>

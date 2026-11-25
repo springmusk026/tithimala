@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="feature_calendar_title">Tithimala</string>
+  <string name="feature_calendar_subtitle">Offline Bikram Sambat calendar</string>
+  <string name="feature_calendar_brand_cd">Tithimala moon phase garland emblem</string>
 </resources>

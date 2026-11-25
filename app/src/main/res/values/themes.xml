@@ -3,8 +3,8 @@
   <style name="Theme.Tithimala" parent="Theme.AppCompat.DayNight.NoActionBar" />
 
   <style name="Theme.Tithimala.Splash" parent="Theme.SplashScreen">
-    <item name="windowSplashScreenBackground">@android:color/white</item>
-    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    <item name="windowSplashScreenBackground">@color/splash_background</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
     <item name="postSplashScreenTheme">@style/Theme.Tithimala</item>
   </style>
 </resources>

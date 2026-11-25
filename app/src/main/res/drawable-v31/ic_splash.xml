@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ (API 31+) AnimatedVectorDrawable wrapper referencing the separately-named
+  ic_splash_vector so the platform renders via the crisp SurfaceView AVD path instead of
+  the pre-scaled ImmobileIconDrawable fallback.
+-->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:drawable="@drawable/ic_splash_vector" />

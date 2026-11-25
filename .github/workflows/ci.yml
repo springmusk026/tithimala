@@ -3,8 +3,6 @@ name: CI
 on:
   pull_request:
     branches: [main]
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -37,6 +35,8 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
 
       - name: Run ktlint, detekt, and plugin validation
         run: ./gradlew ktlintCheck detekt :build-logic:convention:validatePlugins --no-daemon --stacktrace
@@ -62,6 +62,8 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
 
       - name: Assemble debug APK and run unit tests
         run: ./gradlew :app:assembleDebug testDebugUnitTest :core:model:test :core:calendar-engine:test --no-daemon --stacktrace
@@ -95,6 +97,8 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
 
       - name: Run Android Lint and verify Roborazzi baselines
         run: ./gradlew lintDebug verifyRoborazziDebug --no-daemon --stacktrace
