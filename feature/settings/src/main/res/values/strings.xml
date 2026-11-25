@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings_screen_title">Settings</string>
+  <string name="settings_screen_subtitle">Language, display, and offline calendar data</string>
+
+  <string name="settings_section_appearance_language">Appearance and language</string>
+  <string name="settings_label_language">Language</string>
+  <string name="settings_language_system">System default</string>
+  <string name="settings_language_english">English</string>
+  <string name="settings_language_nepali">नेपाली</string>
+
+  <string name="settings_label_numerals">Numeral script</string>
+  <string name="settings_numeral_devanagari">Devanagari (%1$s-%2$s)</string>
+  <string name="settings_numeral_latin">Latin (%1$s-%2$s)</string>
+
+  <string name="settings_label_theme">Theme</string>
+  <string name="settings_theme_system">System</string>
+  <string name="settings_theme_light">Light</string>
+  <string name="settings_theme_dark">Dark</string>
+
+  <string name="settings_label_week_start">Week starts on</string>
+  <string name="settings_week_start_sunday">Sunday</string>
+  <string name="settings_week_start_monday">Monday</string>
+
+  <string name="settings_section_data_updates">Calendar data and updates</string>
+  <string name="settings_background_sync_title">Weekly calendar data checks</string>
+  <string name="settings_background_sync_subtitle">Checks a static JSON file once a week, verifies SHA-256 checksums, and falls back silently to bundled data when offline.</string>
+  <string name="settings_dataset_version_label">Active dataset</string>
+  <string name="settings_dataset_patro_years_label">Patro years</string>
+  <string name="settings_dataset_patro_years_range">%1$s to %2$s BS</string>
+  <string name="settings_dataset_patro_years_single">%1$s BS</string>
+  <string name="settings_dataset_patro_years_unavailable">Unavailable</string>
+  <string name="settings_dataset_commit_label">Upstream commit</string>
+  <string name="settings_dataset_last_sync_label">Last synced</string>
+  <string name="settings_dataset_last_sync_never">Bundled data, not checked yet</string>
+  <string name="settings_dataset_last_sync_bundled_format">%1$s, bundled data</string>
+  <string name="settings_dataset_last_sync_remote_format">%1$s, verified update</string>
+  <string name="settings_action_check_updates">Check for updates</string>
+  <string name="settings_action_checking_updates">Checking for updates</string>
+
+  <string name="settings_feedback_updated">Calendar data updated to %1$s</string>
+  <string name="settings_feedback_up_to_date">Calendar data is already up to date</string>
+  <string name="settings_feedback_offline_fallback">Offline, using bundled calendar data</string>
+  <string name="settings_feedback_checks_disabled">Turn on weekly calendar data checks to check for updates</string>
+
+  <string name="settings_section_about">About and data sources</string>
+  <string name="settings_app_name">Tithimala</string>
+  <string name="settings_app_tagline">Offline Bikram Sambat calendar</string>
+  <string name="settings_brand_mark_cd">Tithimala moon phase garland emblem</string>
+  <string name="settings_license_summary">GNU General Public License v3.0. Ad-free, offline-first, and zero tracking.</string>
+  <string name="settings_action_data_sources">Data sources and licenses</string>
+  <string name="settings_action_data_sources_subtitle">Calendar dataset NOTICE and bundled fonts</string>
+
+  <string name="settings_licenses_dialog_title">Data sources and licenses</string>
+  <string name="settings_licenses_calendar_heading">Calendar dataset</string>
+  <string name="settings_licenses_calendar_summary">Bundled Bikram Sambat tables and Patro data come from %1$s under the %2$s license.</string>
+  <string name="settings_licenses_notice_heading">Upstream NOTICE</string>
+  <string name="settings_licenses_fonts_heading">Bundled fonts</string>
+  <string name="settings_licenses_font_mukta_title">Mukta</string>
+  <string name="settings_licenses_font_mukta_detail">SIL Open Font License 1.1. Used for interface and body text.</string>
+  <string name="settings_licenses_font_noto_title">Noto Serif Devanagari</string>
+  <string name="settings_licenses_font_noto_detail">SIL Open Font License 1.1. Used for editorial headings and Devanagari titles.</string>
+  <string name="settings_licenses_app_heading">Application license</string>
+  <string name="settings_licenses_app_detail">Tithimala is licensed under the GNU General Public License v3.0.</string>
+  <string name="settings_action_close">Close</string>
+</resources>
