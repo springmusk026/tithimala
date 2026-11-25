@@ -5,7 +5,7 @@ complexity:
   LongParameterList:
     ignoreAnnotated: ['Composable']
   TooManyFunctions:
-    ignoreAnnotated: ['Preview']
+    ignoreAnnotated: ['Preview', 'TithimalaThemePreviews']
 
 naming:
   FunctionNaming:
@@ -20,7 +20,7 @@ style:
     excludeImportStatements: true
     excludeCommentStatements: false
   MagicNumber:
-    ignoreAnnotated: ['Composable', 'Preview']
+    ignoreAnnotated: ['Composable', 'Preview', 'TithimalaThemePreviews']
     ignorePropertyDeclaration: true
     ignoreConstantDeclaration: true
     ignoreCompanionObjectPropertyDeclaration: true
@@ -29,4 +29,4 @@ style:
     ignoreEnums: true
     ignoreRanges: true
   UnusedPrivateMember:
-    ignoreAnnotated: ['Preview']
+    ignoreAnnotated: ['Preview', 'TithimalaThemePreviews']

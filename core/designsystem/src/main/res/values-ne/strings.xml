@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="designsystem_brand_mark_cd">तिथिमाला चन्द्रकला प्रतीक</string>
+  <string name="designsystem_brand_title">तिथिमाला</string>
+  <string name="designsystem_theme_subtitle">हिमालयन प्रभात रूपरेखा</string>
+  <string name="designsystem_sample_bs_date">१० मंसिर २०८३</string>
+  <string name="designsystem_sample_ad_date">बुधबार, २५ नोभेम्बर २०२६</string>
+  <string name="designsystem_sample_tithi">पूर्णिमा</string>
+  <string name="designsystem_sample_holiday">सार्वजनिक बिदा</string>
+  <string name="designsystem_palette_heading">रङ प्यालेट</string>
+  <string name="designsystem_swatch_primary">सिन्दूर</string>
+  <string name="designsystem_swatch_secondary">हिमाली नीलो</string>
+  <string name="designsystem_swatch_tertiary">पित्तल</string>
+  <string name="designsystem_swatch_surface">कागज</string>
+  <string name="designsystem_action_today">आज</string>
+  <string name="designsystem_action_convert">मिति रूपान्तरण</string>
+</resources>
