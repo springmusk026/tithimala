@@ -10,4 +10,8 @@ android {
 dependencies {
     implementation(projects.core.model)
     implementation(libs.androidx.datastore.preferences)
+    implementation(libs.kotlinx.coroutines.core)
+
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.turbine)
 }
