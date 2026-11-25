@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="settings_screen_title">सेटिङहरू</string>
+  <string name="settings_screen_subtitle">भाषा, प्रदर्शन र अफलाइन पात्रो डाटा</string>
+
+  <string name="settings_section_appearance_language">रूप र भाषा</string>
+  <string name="settings_label_language">भाषा</string>
+  <string name="settings_language_system">प्रणाली अनुसार</string>
+  <string name="settings_language_english">English</string>
+  <string name="settings_language_nepali">नेपाली</string>
+
+  <string name="settings_label_numerals">अङ्क शैली</string>
+  <string name="settings_numeral_devanagari">देवनागरी (%1$s-%2$s)</string>
+  <string name="settings_numeral_latin">ल्याटिन (%1$s-%2$s)</string>
+
+  <string name="settings_label_theme">थिम</string>
+  <string name="settings_theme_system">प्रणाली</string>
+  <string name="settings_theme_light">उज्यालो</string>
+  <string name="settings_theme_dark">अँध्यारो</string>
+
+  <string name="settings_label_week_start">हप्ता सुरु हुने दिन</string>
+  <string name="settings_week_start_sunday">आइतबार</string>
+  <string name="settings_week_start_monday">सोमबार</string>
+
+  <string name="settings_section_data_updates">पात्रो डाटा र अद्यावधिक</string>
+  <string name="settings_background_sync_title">साप्ताहिक पात्रो डाटा जाँच</string>
+  <string name="settings_background_sync_subtitle">हप्तामा एक पटक स्थिर JSON फाइल जाँच गर्छ, SHA-256 प्रमाणित गर्छ, र अफलाइन हुँदा बन्डल गरिएको डाटामै रहन्छ।</string>
+  <string name="settings_dataset_version_label">सक्रिय डाटा संस्करण</string>
+  <string name="settings_dataset_patro_years_label">पात्रो वर्षहरू</string>
+  <string name="settings_dataset_patro_years_range">वि.सं. %1$s देखि %2$s</string>
+  <string name="settings_dataset_patro_years_single">वि.सं. %1$s</string>
+  <string name="settings_dataset_patro_years_unavailable">उपलब्ध छैन</string>
+  <string name="settings_dataset_commit_label">स्रोत कमिट</string>
+  <string name="settings_dataset_last_sync_label">पछिल्लो जाँच</string>
+  <string name="settings_dataset_last_sync_never">बन्डल गरिएको डाटा, जाँच नगरिएको</string>
+  <string name="settings_dataset_last_sync_bundled_format">%1$s, बन्डल गरिएको डाटा</string>
+  <string name="settings_dataset_last_sync_remote_format">%1$s, प्रमाणित अद्यावधिक</string>
+  <string name="settings_action_check_updates">अद्यावधिक जाँच गर्नुहोस्</string>
+  <string name="settings_action_checking_updates">अद्यावधिक जाँच हुँदैछ</string>
+
+  <string name="settings_feedback_updated">पात्रो डाटा %1$s मा अद्यावधिक भयो</string>
+  <string name="settings_feedback_up_to_date">पात्रो डाटा पहिले नै अद्यावधिक छ</string>
+  <string name="settings_feedback_offline_fallback">अफलाइन छ, बन्डल गरिएको पात्रो डाटा प्रयोग हुँदैछ</string>
+  <string name="settings_feedback_checks_disabled">अद्यावधिक जाँच गर्न साप्ताहिक पात्रो डाटा जाँच सुरु गर्नुहोस्</string>
+
+  <string name="settings_section_about">परिचय र डाटा स्रोतहरू</string>
+  <string name="settings_app_name">तिथिमाला</string>
+  <string name="settings_app_tagline">अफलाइन विक्रम संवत् पात्रो</string>
+  <string name="settings_brand_mark_cd">तिथिमाला चन्द्रकला प्रतीक</string>
+  <string name="settings_license_summary">GNU General Public License v3.0 अन्तर्गत खुला स्रोत। विज्ञापनरहित, अफलाइन-प्रथम र कुनै ट्र्याकिङ छैन।</string>
+  <string name="settings_action_data_sources">डाटा स्रोत र इजाजतपत्रहरू</string>
+  <string name="settings_action_data_sources_subtitle">पात्रो डाटा NOTICE र संलग्न फन्टहरू</string>
+
+  <string name="settings_licenses_dialog_title">डाटा स्रोत र इजाजतपत्रहरू</string>
+  <string name="settings_licenses_calendar_heading">पात्रो डाटासेट</string>
+  <string name="settings_licenses_calendar_summary">संलग्न विक्रम संवत् तालिका र पात्रो विवरण %1$s बाट %2$s इजाजतपत्र अन्तर्गत लिइएको हो।</string>
+  <string name="settings_licenses_notice_heading">स्रोत NOTICE</string>
+  <string name="settings_licenses_fonts_heading">संलग्न फन्टहरू</string>
+  <string name="settings_licenses_font_mukta_title">मुक्ता</string>
+  <string name="settings_licenses_font_mukta_detail">SIL Open Font License 1.1। इन्टरफेस र मुख्य पाठका लागि प्रयोग गरिएको।</string>
+  <string name="settings_licenses_font_noto_title">नोटो सेरिफ देवनागरी</string>
+  <string name="settings_licenses_font_noto_detail">SIL Open Font License 1.1। शीर्षक र देवनागरी पाठका लागि प्रयोग गरिएको।</string>
+  <string name="settings_licenses_app_heading">एप इजाजतपत्र</string>
+  <string name="settings_licenses_app_detail">तिथिमाला GNU General Public License v3.0 इजाजतपत्र अन्तर्गत उपलब्ध छ।</string>
+  <string name="settings_action_close">बन्द गर्नुहोस्</string>
+</resources>
