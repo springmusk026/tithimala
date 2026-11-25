@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="day_screen_title">दिनको विवरण</string>
+  <string name="day_action_back">पछाडि फर्कनुहोस्</string>
+  <string name="day_action_previous_day">अघिल्लो दिन</string>
+  <string name="day_action_next_day">अर्को दिन</string>
+  <string name="day_action_copy_date">मिति प्रतिलिपि गर्नुहोस्</string>
+  <string name="day_clipboard_label">तिथिमाला मिति</string>
+  <string name="day_date_copied_snackbar">मिति प्रतिलिपि गरियो</string>
+
+  <string name="day_ad_date_format">%1$s, %2$s</string>
+  <string name="day_badge_today">आज</string>
+  <string name="day_badge_public_holiday">सार्वजनिक बिदा</string>
+  <string name="day_badge_saturday_holiday">शनिवार</string>
+  <string name="day_almanac_unavailable">यस वर्षको पञ्चाङ्ग विवरण उपलब्ध छैन</string>
+
+  <string name="day_section_festivals_events">चाडपर्व र विशेष दिन</string>
+  <string name="day_events_empty">यस दिनमा कुनै चाडपर्व वा विशेष दिन छैन</string>
+
+  <string name="day_section_reminders">स्मरणहरू</string>
+  <string name="day_action_add_reminder">स्मरण थप्नुहोस्</string>
+  <string name="day_reminders_empty_title">यस दिनका लागि कुनै स्मरण छैन</string>
+  <string name="day_reminders_empty_subtitle">एकपटक वा वार्षिक विक्रम संवत् स्मरण थप्नुहोस्।</string>
+  <string name="day_reminder_recurrence_one_time">एकपटक</string>
+  <string name="day_reminder_recurrence_yearly_bs">वार्षिक (वि.सं.)</string>
+  <string name="day_reminder_toggle_cd">स्मरण: %1$s</string>
+  <string name="day_reminder_delete_cd">स्मरण मेटाउनुहोस्: %1$s</string>
+
+  <string name="day_preview_bs_day">१</string>
+  <string name="day_preview_bs_month_year">बैशाख २०८१</string>
+  <string name="day_preview_bs_full_date">शनिवार, बैशाख १, २०८१</string>
+  <string name="day_preview_weekday">शनिवार</string>
+  <string name="day_preview_ad_date">१३ अप्रिल २०२४</string>
+  <string name="day_preview_tithi">पञ्चमी</string>
+  <string name="day_preview_event_new_year">नयाँ वर्ष</string>
+  <string name="day_preview_event_sankranti">मेष संक्रान्ति</string>
+  <string name="day_preview_event_bisket">बिस्केट जात्रा</string>
+  <string name="day_preview_reminder_puja_title">बिहानको पारिवारिक पूजा</string>
+  <string name="day_preview_reminder_puja_notes">फूल र धूप तयार पार्ने</string>
+  <string name="day_preview_reminder_puja_time">०७:३०</string>
+  <string name="day_preview_reminder_call_title">नयाँ वर्षको शुभकामना दिन फोन गर्ने</string>
+  <string name="day_preview_reminder_call_time">१८:००</string>
+</resources>
