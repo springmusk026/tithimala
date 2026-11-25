@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="core_ui_tithi_estimated_format">%1$s (अनुमानित)</string>
+  <string name="core_ui_lunar_phase_new_moon">औंसी चन्द्र</string>
+  <string name="core_ui_lunar_phase_waxing_crescent">शुक्ल बालचन्द्र</string>
+  <string name="core_ui_lunar_phase_first_quarter">शुक्ल अष्टमी चन्द्र</string>
+  <string name="core_ui_lunar_phase_waxing_gibbous">शुक्ल पक्ष चन्द्र</string>
+  <string name="core_ui_lunar_phase_full_moon">पूर्णिमा चन्द्र</string>
+  <string name="core_ui_lunar_phase_waning_gibbous">कृष्ण पक्ष चन्द्र</string>
+  <string name="core_ui_lunar_phase_last_quarter">कृष्ण अष्टमी चन्द्र</string>
+  <string name="core_ui_lunar_phase_waning_crescent">कृष्ण बालचन्द्र</string>
+
+  <string name="core_ui_hero_ad_date_format">%1$s, %2$s</string>
+  <string name="core_ui_holiday_badge">सार्वजनिक बिदा</string>
+  <string name="core_ui_hero_open_day_details">दिनको विवरण खोल्नुहोस्</string>
+  <string name="core_ui_action_today">आज</string>
+
+  <string name="core_ui_weekday_sun_short">आइत</string>
+  <string name="core_ui_weekday_mon_short">सोम</string>
+  <string name="core_ui_weekday_tue_short">मंगल</string>
+  <string name="core_ui_weekday_wed_short">बुध</string>
+  <string name="core_ui_weekday_thu_short">बिहि</string>
+  <string name="core_ui_weekday_fri_short">शुक्र</string>
+  <string name="core_ui_weekday_sat_short">शनि</string>
+
+  <string name="core_ui_preview_section_lunar">चन्द्रकला र तिथि</string>
+  <string name="core_ui_preview_section_month">मंसिर २०८३</string>
+  <string name="core_ui_preview_bs_day">१०</string>
+  <string name="core_ui_preview_bs_month_year">मंसिर २०८३</string>
+  <string name="core_ui_preview_ad_date">२५ नोभेम्बर २०२६</string>
+  <string name="core_ui_preview_weekday">बुधबार</string>
+  <string name="core_ui_preview_tithi_purnima">पूर्णिमा</string>
+  <string name="core_ui_preview_tithi_tritiya">तृतीया</string>
+  <string name="core_ui_preview_tithi_ashtami">अष्टमी</string>
+  <string name="core_ui_preview_tithi_ekadashi">एकादशी</string>
+  <string name="core_ui_preview_tithi_amavasya">औंसी</string>
+  <string name="core_ui_preview_festival_udhauli">उधौली पर्व</string>
+  <string name="core_ui_preview_day_cd_format">%1$s मंसिर २०८३, ई.सं. %2$s</string>
+  <string name="core_ui_preview_day_cd_today_suffix">%1$s, आज</string>
+  <string name="core_ui_preview_day_cd_holiday_suffix">%1$s, सार्वजनिक बिदा</string>
+
+  <string-array name="core_ui_preview_bs_days">
+    <item>३०</item>
+    <item>१</item>
+    <item>२</item>
+    <item>३</item>
+    <item>४</item>
+    <item>५</item>
+    <item>६</item>
+    <item>७</item>
+    <item>८</item>
+    <item>९</item>
+    <item>१०</item>
+    <item>११</item>
+    <item>१२</item>
+    <item>१३</item>
+    <item>१४</item>
+    <item>१५</item>
+    <item>१६</item>
+    <item>१७</item>
+    <item>१८</item>
+    <item>१९</item>
+    <item>२०</item>
+    <item>२१</item>
+    <item>२२</item>
+    <item>२३</item>
+    <item>२४</item>
+    <item>२५</item>
+    <item>२६</item>
+    <item>२७</item>
+    <item>२८</item>
+    <item>२९</item>
+    <item>१</item>
+    <item>२</item>
+    <item>३</item>
+    <item>४</item>
+    <item>५</item>
+  </string-array>
+
+  <string-array name="core_ui_preview_ad_days">
+    <item>१५</item>
+    <item>१६</item>
+    <item>१७</item>
+    <item>१८</item>
+    <item>१९</item>
+    <item>२०</item>
+    <item>२१</item>
+    <item>२२</item>
+    <item>२३</item>
+    <item>२४</item>
+    <item>२५</item>
+    <item>२६</item>
+    <item>२७</item>
+    <item>२८</item>
+    <item>२९</item>
+    <item>३०</item>
+    <item>१</item>
+    <item>२</item>
+    <item>३</item>
+    <item>४</item>
+    <item>५</item>
+    <item>६</item>
+    <item>७</item>
+    <item>८</item>
+    <item>९</item>
+    <item>१०</item>
+    <item>११</item>
+    <item>१२</item>
+    <item>१३</item>
+    <item>१४</item>
+    <item>१५</item>
+    <item>१६</item>
+    <item>१७</item>
+    <item>१८</item>
+    <item>१९</item>
+  </string-array>
+</resources>

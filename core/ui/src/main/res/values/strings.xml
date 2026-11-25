@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="core_ui_tithi_estimated_format">%1$s (Est.)</string>
+  <string name="core_ui_lunar_phase_new_moon">New moon</string>
+  <string name="core_ui_lunar_phase_waxing_crescent">Waxing crescent</string>
+  <string name="core_ui_lunar_phase_first_quarter">First quarter</string>
+  <string name="core_ui_lunar_phase_waxing_gibbous">Waxing gibbous</string>
+  <string name="core_ui_lunar_phase_full_moon">Full moon</string>
+  <string name="core_ui_lunar_phase_waning_gibbous">Waning gibbous</string>
+  <string name="core_ui_lunar_phase_last_quarter">Last quarter</string>
+  <string name="core_ui_lunar_phase_waning_crescent">Waning crescent</string>
+
+  <string name="core_ui_hero_ad_date_format">%1$s, %2$s</string>
+  <string name="core_ui_holiday_badge">Public holiday</string>
+  <string name="core_ui_hero_open_day_details">Open day details</string>
+  <string name="core_ui_action_today">Today</string>
+
+  <string name="core_ui_weekday_sun_short">Sun</string>
+  <string name="core_ui_weekday_mon_short">Mon</string>
+  <string name="core_ui_weekday_tue_short">Tue</string>
+  <string name="core_ui_weekday_wed_short">Wed</string>
+  <string name="core_ui_weekday_thu_short">Thu</string>
+  <string name="core_ui_weekday_fri_short">Fri</string>
+  <string name="core_ui_weekday_sat_short">Sat</string>
+
+  <string name="core_ui_preview_section_lunar">Lunar phases</string>
+  <string name="core_ui_preview_section_month">Mangsir 2083</string>
+  <string name="core_ui_preview_bs_day">10</string>
+  <string name="core_ui_preview_bs_month_year">Mangsir 2083</string>
+  <string name="core_ui_preview_ad_date">25 November 2026</string>
+  <string name="core_ui_preview_weekday">Wednesday</string>
+  <string name="core_ui_preview_tithi_purnima">Purnima</string>
+  <string name="core_ui_preview_tithi_tritiya">Tritiya</string>
+  <string name="core_ui_preview_tithi_ashtami">Ashtami</string>
+  <string name="core_ui_preview_tithi_ekadashi">Ekadashi</string>
+  <string name="core_ui_preview_tithi_amavasya">Amavasya</string>
+  <string name="core_ui_preview_festival_udhauli">Udhauli Parva</string>
+  <string name="core_ui_preview_day_cd_format">%1$s Mangsir 2083, AD %2$s</string>
+  <string name="core_ui_preview_day_cd_today_suffix">%1$s, Today</string>
+  <string name="core_ui_preview_day_cd_holiday_suffix">%1$s, Public holiday</string>
+
+  <string-array name="core_ui_preview_bs_days">
+    <item>30</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+  </string-array>
+
+  <string-array name="core_ui_preview_ad_days">
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+  </string-array>
+</resources>
