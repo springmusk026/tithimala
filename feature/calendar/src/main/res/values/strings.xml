@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="feature_calendar_title">Tithimala</string>
-  <string name="feature_calendar_subtitle">Offline Bikram Sambat calendar</string>
-  <string name="feature_calendar_brand_cd">Tithimala moon phase garland emblem</string>
+  <string name="feature_calendar_action_today">Today</string>
+  <string name="feature_calendar_previous_month_cd">Previous month</string>
+  <string name="feature_calendar_next_month_cd">Next month</string>
+  <string name="feature_calendar_section_festivals">This month\'s festivals &amp; holidays</string>
+  <string name="feature_calendar_no_festivals">No holidays or festivals listed for this month</string>
+  <string name="feature_calendar_holiday_label">Public holiday</string>
+  <string name="feature_calendar_festival_meta_holiday_format">%1$s · Public holiday</string>
+  <string name="feature_calendar_open_day_details">Open day details</string>
+  <string name="feature_calendar_legend_holiday">Holiday</string>
+  <string name="feature_calendar_legend_event">Festival</string>
+  <string name="feature_calendar_legend_reminder">Reminder</string>
+
+  <string name="feature_calendar_day_cd_today">Today</string>
+  <string name="feature_calendar_day_cd_holiday">Public holiday</string>
+  <string name="feature_calendar_day_cd_has_events">Has festivals</string>
+  <string name="feature_calendar_day_cd_has_reminders">Has reminders</string>
+  <string name="feature_calendar_day_cd_append_format">%1$s, %2$s</string>
+  <string name="feature_calendar_festival_cd_format">%1$s %2$s, %3$s, %4$s</string>
+
+  <string name="feature_calendar_preview_tithi_purnima">Purnima</string>
+  <string name="feature_calendar_preview_event_sakimna">Sakimna Punhi</string>
+  <string name="feature_calendar_preview_event_guru_nanak">Guru Nanak Jayanti · Kartik Snan End</string>
+  <string name="feature_calendar_preview_event_vrischik">Vrischik Sankranti</string>
+  <string name="feature_calendar_preview_event_vrischik_more">Bhaumashtami Brata · Gorkhakali Puja</string>
+  <string name="feature_calendar_preview_event_udhauli">Udhauli Festival</string>
+  <string name="feature_calendar_preview_event_udhauli_more">Utpattika Ekadashi Brata</string>
+  <string name="feature_calendar_preview_event_bala">Bala Chaturdashi Brata</string>
+  <string name="feature_calendar_preview_event_bala_more">Shatbij Chharne Day</string>
+  <string name="feature_calendar_preview_event_vivaha">Vivaha Panchami</string>
+  <string name="feature_calendar_preview_event_vivaha_more">Shadananda Jayanti</string>
 </resources>

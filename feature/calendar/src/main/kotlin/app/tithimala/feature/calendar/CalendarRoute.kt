@@ -1,70 +1,72 @@
 package app.tithimala.feature.calendar
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
+import android.annotation.SuppressLint
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
-import app.tithimala.core.designsystem.component.TithimalaBrandMark
-import app.tithimala.core.designsystem.component.TithimalaSurfaceCard
-import app.tithimala.core.designsystem.preview.TithimalaThemePreviews
-import app.tithimala.core.designsystem.theme.TithimalaTheme
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import app.tithimala.core.designsystem.theme.TithimalaMotion
+import app.tithimala.core.designsystem.theme.rememberReducedMotionEnabled
+import app.tithimala.core.model.BsDate
+import kotlin.math.abs
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 
+private const val MAX_ANIMATED_PAGE_JUMP = 2
+
+@SuppressLint("ModifierParameter")
 @Composable
-fun CalendarRoute(modifier: Modifier = Modifier) {
-    CalendarScreen(modifier = modifier)
-}
+fun CalendarRoute(
+    onOpenDay: (BsDate) -> Unit = {},
+    modifier: Modifier = Modifier,
+    viewModel: CalendarViewModel = hiltViewModel(),
+    sharedDayModifier: @Composable (BsDate) -> Modifier = { Modifier }
+) {
+    val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    val reducedMotion = rememberReducedMotionEnabled()
+    val pagerState = rememberPagerState(
+        initialPage = uiState.pageIndexFor(uiState.currentYearMonth),
+        pageCount = { uiState.pageCount }
+    )
+    val currentState by rememberUpdatedState(uiState)
+    val currentOnOpenDay by rememberUpdatedState(onOpenDay)
+    val currentReducedMotion by rememberUpdatedState(reducedMotion)
 
-@Composable
-internal fun CalendarScreen(modifier: Modifier = Modifier) {
-    val spacing = TithimalaTheme.spacing
-
-    Column(
-        modifier = modifier
-            .fillMaxSize()
-            .padding(spacing.md),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        TithimalaSurfaceCard(modifier = Modifier.fillMaxWidth()) {
-            Column(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                TithimalaBrandMark(
-                    size = 72.dp,
-                    contentDescription = stringResource(id = R.string.feature_calendar_brand_cd)
-                )
-                Spacer(modifier = Modifier.height(spacing.md))
-                Text(
-                    text = stringResource(id = R.string.feature_calendar_title),
-                    style = MaterialTheme.typography.displaySmall,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-                Spacer(modifier = Modifier.height(spacing.xs))
-                Text(
-                    text = stringResource(id = R.string.feature_calendar_subtitle),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+    LaunchedEffect(viewModel, pagerState) {
+        var scrollJob: Job? = null
+        viewModel.effects.collect { effect ->
+            when (effect) {
+                is CalendarEffect.NavigateToDay -> currentOnOpenDay(effect.bsDate)
+                is CalendarEffect.ScrollToMonth -> {
+                    scrollJob?.cancel()
+                    scrollJob = launch {
+                        val targetPage = currentState.pageIndexFor(effect.yearMonth)
+                        if (pagerState.currentPage != targetPage) {
+                            val distance = abs(targetPage - pagerState.currentPage)
+                            if (currentReducedMotion || distance > MAX_ANIMATED_PAGE_JUMP) {
+                                pagerState.scrollToPage(targetPage)
+                            } else {
+                                pagerState.animateScrollToPage(
+                                    page = targetPage,
+                                    animationSpec = TithimalaMotion.gentleSpring(reducedMotion = false)
+                                )
+                            }
+                        }
+                    }
+                }
             }
         }
     }
-}
 
-@TithimalaThemePreviews
-@Composable
-private fun CalendarScreenPreview() {
-    TithimalaTheme {
-        CalendarScreen()
-    }
+    CalendarScreen(
+        state = uiState,
+        onAction = viewModel::onAction,
+        modifier = modifier,
+        sharedDayModifier = sharedDayModifier,
+        pagerState = pagerState
+    )
 }
