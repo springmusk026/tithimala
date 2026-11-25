@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a crash, visual defect, or unexpected app behavior.
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the bug in one or two sentences.
+      placeholder: App crashes when tapping a holiday in Baisakh 2082.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps to trigger the issue.
+      placeholder: |
+        1. Open Tithimala.
+        2. Navigate to Baisakh 2082.
+        3. Tap day 1.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected and actual behavior
+      description: State what you expected to happen and what happened instead.
+      placeholder: |
+        Expected: Day detail sheet opens with tithi and holiday info.
+        Actual: App closes with a crash dialog.
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: Tithimala version
+      description: Version name or git commit hash from Settings or the build.
+      placeholder: 0.1.0 (or commit hash)
+    validations:
+      required: true
+
+  - type: input
+    id: device_info
+    attributes:
+      label: Android version and device model
+      description: Android OS version and phone or emulator model.
+      placeholder: Android 15, Pixel 8
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language_numerals
+    attributes:
+      label: App language and numeral setting
+      description: Select the language and digit style active when the bug occurred.
+      options:
+        - English with Latin numerals (0-9)
+        - English with Devanagari numerals (०-९)
+        - Nepali with Devanagari numerals (०-९)
+        - Nepali with Latin numerals (0-9)
+        - System default
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs_screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Attach screenshots, screen recordings, or logcat stack traces if available.
+      placeholder: Paste stack traces or drag and drop screenshots here.
+    validations:
+      required: false
