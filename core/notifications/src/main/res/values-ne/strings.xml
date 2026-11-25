@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="notification_channel_reminders_name">सम्झनाहरू</string>
+  <string name="notification_channel_reminders_description">विक्रम संवत् मिति सम्झना र वार्षिक अवसरहरू</string>
+  <string name="notification_reminder_default_title">तिथिमाला सम्झना</string>
+  <string name="notification_reminder_default_body">तय गरिएको विक्रम संवत् सम्झना</string>
+  <string name="notification_reminder_yearly_subtitle">वार्षिक विक्रम संवत् सम्झना</string>
+  <string name="notification_reminder_yearly_tag">वार्षिक वि.सं.</string>
+</resources>

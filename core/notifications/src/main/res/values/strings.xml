@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="notification_channel_reminders_name">Reminders</string>
+  <string name="notification_channel_reminders_description">Bikram Sambat date reminders and yearly anniversaries</string>
+  <string name="notification_reminder_default_title">Tithimala reminder</string>
+  <string name="notification_reminder_default_body">Scheduled Bikram Sambat reminder</string>
+  <string name="notification_reminder_yearly_subtitle">Yearly Bikram Sambat reminder</string>
+  <string name="notification_reminder_yearly_tag">Yearly BS</string>
+</resources>
