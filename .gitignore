@@ -1,0 +1,74 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Files for the ART/Dalvik VM
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+*/build/
+*/*/build/
+build-logic/.gradle/
+build-logic/build/
+build-logic/*/build/
+
+# Local configuration & secrets (NEVER commit)
+local.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keystore.properties
+signing.properties
+.env
+.env.*
+
+# Proguard / R8
+proguard/
+mapping.txt
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Kotlin
+.kotlin/
+
+# Roborazzi / screenshot temporary diff outputs
+**/*_compare.png
+**/*_actual.png
+
+# Audit & temporary scratch outputs
+COMPOSE-AUDIT-REPORT*.md
+tmp/
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo

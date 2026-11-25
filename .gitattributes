@@ -1,0 +1,24 @@
+* text=auto eol=lf
+
+*.kt text
+*.kts text
+*.xml text
+*.json text
+*.toml text
+*.yml text
+*.yaml text
+*.md text
+*.properties text
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+*.png binary
+*.webp binary
+*.jpg binary
+*.ttf binary
+*.otf binary
+*.woff2 binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.pb binary
