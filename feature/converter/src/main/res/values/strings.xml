@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="converter_title">Date converter</string>
+  <string name="converter_subtitle">Bikram Sambat and Gregorian</string>
+  <string name="converter_action_today">Today</string>
+
+  <string name="converter_direction_bs_to_ad">BS → AD</string>
+  <string name="converter_direction_ad_to_bs">AD → BS</string>
+  <string name="converter_direction_bs_to_ad_cd">Convert from Bikram Sambat to Gregorian</string>
+  <string name="converter_direction_ad_to_bs_cd">Convert from Gregorian to Bikram Sambat</string>
+  <string name="converter_action_swap_cd">Swap conversion direction</string>
+
+  <string name="converter_input_bs_title">Bikram Sambat date</string>
+  <string name="converter_input_ad_title">Gregorian date</string>
+  <string name="converter_supported_bs_years_format">%1$s–%2$s BS</string>
+  <string name="converter_supported_ad_years_format">%1$s–%2$s AD</string>
+  <string name="converter_label_year">Year</string>
+  <string name="converter_label_month">Month</string>
+  <string name="converter_label_day_bs">Day</string>
+  <string name="converter_label_day_ad">Day</string>
+  <string name="converter_month_option_format">%1$s · %2$s</string>
+  <string name="converter_action_previous_day_cd">Previous day</string>
+  <string name="converter_action_next_day_cd">Next day</string>
+  <string name="converter_day_range_helper_format">Valid days for this month: %1$s–%2$s</string>
+
+  <string-array name="converter_bs_months">
+    <item>Baishakh</item>
+    <item>Jestha</item>
+    <item>Ashad</item>
+    <item>Shrawan</item>
+    <item>Bhadra</item>
+    <item>Ashoj</item>
+    <item>Kartik</item>
+    <item>Mangsir</item>
+    <item>Poush</item>
+    <item>Magh</item>
+    <item>Falgun</item>
+    <item>Chaitra</item>
+  </string-array>
+
+  <string-array name="converter_ad_months">
+    <item>January</item>
+    <item>February</item>
+    <item>March</item>
+    <item>April</item>
+    <item>May</item>
+    <item>June</item>
+    <item>July</item>
+    <item>August</item>
+    <item>September</item>
+    <item>October</item>
+    <item>November</item>
+    <item>December</item>
+  </string-array>
+
+  <string name="converter_error_empty_input">Enter a year and day to convert</string>
+  <string name="converter_error_empty_year">Enter a four-digit year</string>
+  <string name="converter_error_empty_day_format">Enter a day from %1$s to %2$s</string>
+  <string name="converter_error_year_range_format">Supported years are %1$s to %2$s</string>
+  <string name="converter_error_invalid_day_format">%1$s %2$s has %3$s days (enter %4$s–%3$s)</string>
+  <string name="converter_error_date_before_min_format">Supported Gregorian dates start on %1$s</string>
+  <string name="converter_error_date_after_max_format">Supported Gregorian dates end on %1$s</string>
+
+  <string name="converter_result_ad_heading">Gregorian (AD)</string>
+  <string name="converter_result_bs_heading">Bikram Sambat (BS)</string>
+  <string name="converter_result_weekday_source_format">%1$s · %2$s</string>
+  <string name="converter_holiday_badge">Public holiday</string>
+  <string name="converter_patro_coverage_note_format">Tithi and festival data available for %1$s–%2$s BS</string>
+  <string name="converter_result_empty_hint">Enter a valid date above to see the converted date, weekday, and Tithi</string>
+  <string name="converter_action_copy_date">Copy date</string>
+  <string name="converter_action_view_day">View day details</string>
+  <string name="converter_clipboard_label">Converted date</string>
+  <string name="converter_copied_snackbar">Date copied to clipboard</string>
+
+  <string name="converter_preview_year">2083</string>
+  <string name="converter_preview_day">1</string>
+  <string name="converter_preview_primary_date">14 April 2026</string>
+  <string name="converter_preview_secondary_date">Baishakh 1, 2083</string>
+  <string name="converter_preview_weekday">Tuesday</string>
+  <string name="converter_preview_tithi">Dwadashi</string>
+  <string name="converter_preview_event">Mesh Sankranti</string>
+  <string name="converter_preview_copy_text">Tuesday, 14 April 2026 (Baishakh 1, 2083)</string>
+</resources>

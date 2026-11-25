@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="converter_title">मिति रूपान्तरण</string>
+  <string name="converter_subtitle">बिक्रम संवत् र ईस्वी संवत्</string>
+  <string name="converter_action_today">आज</string>
+
+  <string name="converter_direction_bs_to_ad">बि.सं. → ई.सं.</string>
+  <string name="converter_direction_ad_to_bs">ई.सं. → बि.सं.</string>
+  <string name="converter_direction_bs_to_ad_cd">बिक्रम संवत् बाट ईस्वी संवत् मा रूपान्तरण</string>
+  <string name="converter_direction_ad_to_bs_cd">ईस्वी संवत् बाट बिक्रम संवत् मा रूपान्तरण</string>
+  <string name="converter_action_swap_cd">रूपान्तरण दिशा साट्नुहोस्</string>
+
+  <string name="converter_input_bs_title">बिक्रम संवत् मिति</string>
+  <string name="converter_input_ad_title">ईस्वी संवत् मिति</string>
+  <string name="converter_supported_bs_years_format">%1$s–%2$s बि.सं.</string>
+  <string name="converter_supported_ad_years_format">%1$s–%2$s ई.सं.</string>
+  <string name="converter_label_year">वर्ष</string>
+  <string name="converter_label_month">महिना</string>
+  <string name="converter_label_day_bs">गते</string>
+  <string name="converter_label_day_ad">तारीख</string>
+  <string name="converter_month_option_format">%1$s · %2$s</string>
+  <string name="converter_action_previous_day_cd">अघिल्लो दिन</string>
+  <string name="converter_action_next_day_cd">अर्को दिन</string>
+  <string name="converter_day_range_helper_format">यस महिनाको मान्य दिन: %1$s–%2$s</string>
+
+  <string-array name="converter_bs_months">
+    <item>बैशाख</item>
+    <item>जेठ</item>
+    <item>असार</item>
+    <item>साउन</item>
+    <item>भदौ</item>
+    <item>असोज</item>
+    <item>कार्तिक</item>
+    <item>मंसिर</item>
+    <item>पुष</item>
+    <item>माघ</item>
+    <item>फागुन</item>
+    <item>चैत</item>
+  </string-array>
+
+  <string-array name="converter_ad_months">
+    <item>जनवरी</item>
+    <item>फेब्रुअरी</item>
+    <item>मार्च</item>
+    <item>अप्रिल</item>
+    <item>मे</item>
+    <item>जुन</item>
+    <item>जुलाई</item>
+    <item>अगस्ट</item>
+    <item>सेप्टेम्बर</item>
+    <item>अक्टोबर</item>
+    <item>नोभेम्बर</item>
+    <item>डिसेम्बर</item>
+  </string-array>
+
+  <string name="converter_error_empty_input">रूपान्तरण गर्न वर्ष र दिन लेख्नुहोस्</string>
+  <string name="converter_error_empty_year">चार अङ्कको वर्ष लेख्नुहोस्</string>
+  <string name="converter_error_empty_day_format">%1$s देखि %2$s सम्मको दिन लेख्नुहोस्</string>
+  <string name="converter_error_year_range_format">समर्थित वर्ष %1$s देखि %2$s सम्म छ</string>
+  <string name="converter_error_invalid_day_format">%1$s %2$s मा %3$s दिन छन् (%4$s–%3$s लेख्नुहोस्)</string>
+  <string name="converter_error_date_before_min_format">समर्थित ईस्वी मिति %1$s बाट सुरु हुन्छ</string>
+  <string name="converter_error_date_after_max_format">समर्थित ईस्वी मिति %1$s मा अन्त्य हुन्छ</string>
+
+  <string name="converter_result_ad_heading">ईस्वी संवत् (ई.सं.)</string>
+  <string name="converter_result_bs_heading">बिक्रम संवत् (बि.सं.)</string>
+  <string name="converter_result_weekday_source_format">%1$s · %2$s</string>
+  <string name="converter_holiday_badge">सार्वजनिक बिदा</string>
+  <string name="converter_patro_coverage_note_format">तिथि र चाडपर्वको विवरण %1$s–%2$s बि.सं. का लागि उपलब्ध छ</string>
+  <string name="converter_result_empty_hint">रूपान्तरित मिति, बार र तिथि हेर्न माथि मान्य मिति लेख्नुहोस्</string>
+  <string name="converter_action_copy_date">मिति कपी गर्नुहोस्</string>
+  <string name="converter_action_view_day">दिनको विवरण</string>
+  <string name="converter_clipboard_label">रूपान्तरित मिति</string>
+  <string name="converter_copied_snackbar">मिति क्लिपबोर्डमा कपी भयो</string>
+
+  <string name="converter_preview_year">२०८३</string>
+  <string name="converter_preview_day">१</string>
+  <string name="converter_preview_primary_date">१४ अप्रिल २०२६</string>
+  <string name="converter_preview_secondary_date">बैशाख १, २०८३</string>
+  <string name="converter_preview_weekday">मङ्गलवार</string>
+  <string name="converter_preview_tithi">द्वादशी</string>
+  <string name="converter_preview_event">मेष संक्रान्ति</string>
+  <string name="converter_preview_copy_text">मङ्गलवार, १४ अप्रिल २०२६ (बैशाख १, २०८३)</string>
+</resources>
