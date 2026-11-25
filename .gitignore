@@ -21,6 +21,7 @@ build/
 build-logic/.gradle/
 build-logic/build/
 build-logic/*/build/
+!.claude/skills/**/build/
 
 # Local configuration & secrets (NEVER commit)
 local.properties
