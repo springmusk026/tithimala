@@ -1,8 +1,9 @@
 version: 2
 updates:
-  # Add "/build-logic" to directories once the convention-plugin module exists.
   - package-ecosystem: "gradle"
-    directory: "/"
+    directories:
+      - "/"
+      - "/build-logic"
     schedule:
       interval: "weekly"
       day: "monday"
