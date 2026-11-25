@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "dataset_version": "2026.10.30",
+  "upstream_repo": "https://github.com/sanamhub/nepdate",
+  "upstream_commit": "77adb449dd50f54222330096203c2cd16463c4c6",
+  "license": "MIT",
+  "calendar_file": "calendar/bs-calendar.json",
+  "notice_file": "NOTICE",
+  "patro_years": [2077, 2078, 2079, 2080, 2081, 2082, 2083, 2084],
+  "sha256": {
+    "calendar/bs-calendar.json": "107fa090907546c93d5c9bee4c4c0426c31270fd7c78006f891c5472fe4568b9",
+    "patro/2077.json": "1188e7a77d07c35ba5c8b3d72db3af444c959687cdced27039062b0f6c29a2da",
+    "patro/2078.json": "1873c28f0003dd4cbc60d4efd3cd8d00736d53f9e7c06b8a1e15c32775682c8c",
+    "patro/2079.json": "d869ea2f39050dacbd944c8c1f8ab3139ea33eb686050af956de8af0f8195891",
+    "patro/2080.json": "e5e0c30b7dcdbbfaf43ed742ecdbb5dbbb7ab881564e11612f468cd966178a73",
+    "patro/2081.json": "7dbd8d0407ec548ae91228302171011b986d40ffa5c2dee4cd4b9eca4a5d2bba",
+    "patro/2082.json": "76e6158d967b94feac815b9fd6ae22f1368bcbf10901dce36001220195aaf3b9",
+    "patro/2083.json": "52a26eeaf520d5a8b9e4f9d88f976f58a2f09e0032211622285a30106e9125d5",
+    "patro/2084.json": "55756fe2c86e632732d73407ccb5fe65f3e35b6245a375a2e8026e0de0d27782",
+    "NOTICE": "0acdcd06e9cd8245ed8a96d3914b32a6d4c667a1888ba6d40c59a25e40cf475f"
+  }
+}
