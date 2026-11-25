@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="feature_calendar_title">तिथिमाला</string>
-  <string name="feature_calendar_subtitle">अफलाइन विक्रम संवत् पात्रो</string>
-  <string name="feature_calendar_brand_cd">तिथिमाला चन्द्रकला प्रतीक</string>
+  <string name="feature_calendar_action_today">आज</string>
+  <string name="feature_calendar_previous_month_cd">अघिल्लो महिना</string>
+  <string name="feature_calendar_next_month_cd">अर्को महिना</string>
+  <string name="feature_calendar_section_festivals">यस महिनाका पर्व तथा बिदाहरू</string>
+  <string name="feature_calendar_no_festivals">यस महिनाका लागि कुनै पर्व वा बिदा सूचीबद्ध छैनन्</string>
+  <string name="feature_calendar_holiday_label">सार्वजनिक बिदा</string>
+  <string name="feature_calendar_festival_meta_holiday_format">%1$s · सार्वजनिक बिदा</string>
+  <string name="feature_calendar_open_day_details">दिनको विवरण खोल्नुहोस्</string>
+  <string name="feature_calendar_legend_holiday">बिदा</string>
+  <string name="feature_calendar_legend_event">पर्व</string>
+  <string name="feature_calendar_legend_reminder">रिमाइन्डर</string>
+
+  <string name="feature_calendar_day_cd_today">आज</string>
+  <string name="feature_calendar_day_cd_holiday">सार्वजनिक बिदा</string>
+  <string name="feature_calendar_day_cd_has_events">पर्व छ</string>
+  <string name="feature_calendar_day_cd_has_reminders">रिमाइन्डर छ</string>
+  <string name="feature_calendar_day_cd_append_format">%1$s, %2$s</string>
+  <string name="feature_calendar_festival_cd_format">%1$s %2$s, %3$s, %4$s</string>
+
+  <string name="feature_calendar_preview_tithi_purnima">पूर्णिमा</string>
+  <string name="feature_calendar_preview_event_sakimna">सकिमना पुन्हि</string>
+  <string name="feature_calendar_preview_event_guru_nanak">गुरु नानक जयन्ती · कार्तिक स्नान समाप्ति</string>
+  <string name="feature_calendar_preview_event_vrischik">वृश्चिक संक्रान्ति</string>
+  <string name="feature_calendar_preview_event_vrischik_more">भौमाष्टमी व्रत · गोरखकाली पूजा</string>
+  <string name="feature_calendar_preview_event_udhauli">उँधौली पर्व</string>
+  <string name="feature_calendar_preview_event_udhauli_more">उत्पतिका एकादशी व्रत</string>
+  <string name="feature_calendar_preview_event_bala">बाला चतुर्दशी व्रत</string>
+  <string name="feature_calendar_preview_event_bala_more">शतबीज छर्ने दिन</string>
+  <string name="feature_calendar_preview_event_vivaha">विवाह पञ्चमी</string>
+  <string name="feature_calendar_preview_event_vivaha_more">षडानन्द जयन्ती</string>
 </resources>
